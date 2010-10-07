@@ -54,7 +54,7 @@ omx_core_cb_type core[] =
       "video_decoder.avc"
     }
   },
-  {
+  /*{
     "OMX.qcom.video.decoder.mpeg4",
     NULL, // Create instance function
     // Unique instance handle
@@ -85,7 +85,7 @@ omx_core_cb_type core[] =
     {
       "video_decoder.vc1"
     }
-  },
+  },*/
   {
     "OMX.qcom.video.decoder.h263",
     NULL, // Create instance function
@@ -134,7 +134,7 @@ omx_core_cb_type core[] =
       "video_encoder.h263"
     }
   },
-  {
+  /*{
     "OMX.qcom.audio.decoder.mp3",
     NULL, // Create instance function
     // Unique instance handle
@@ -213,7 +213,7 @@ omx_core_cb_type core[] =
     {
       "audio_decoder.evrc"
     }
-  }
+  }*/
 };
 
 const unsigned int SIZE_OF_CORE = sizeof(core) / sizeof(omx_core_cb_type);

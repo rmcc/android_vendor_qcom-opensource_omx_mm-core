@@ -45,6 +45,8 @@ else ifeq "$(findstring msm7627,$(TARGET_PRODUCT))" "msm7627"
 MM_CORE_TARGET = 7627
 else ifeq "$(findstring msm7625,$(TARGET_PRODUCT))" "msm7625"
 MM_CORE_TARGET = 7625
+else ifeq "$(findstring geeksphone_one,$(TARGET_PRODUCT))" "geeksphone_one"
+MM_CORE_TARGET = 7625
 else ifeq "$(findstring msm7630,$(TARGET_PRODUCT))" "msm7630"
 MM_CORE_TARGET = 7630
 else ifeq "$(findstring msm8660,$(TARGET_PRODUCT))" "msm8660"
